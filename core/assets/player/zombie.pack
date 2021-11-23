@@ -1,0 +1,12 @@
+zombie.png
+size: 72, 128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bloody_zombie-NESW
+  rotate: false
+  xy: 0, 0
+  size: 72, 128
+  orig: 72, 128
+  offset: 0, 0
+  index: -1

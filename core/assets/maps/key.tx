@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object name="blue_key" type="blue_key" width="32" height="32">
+  <properties>
+   <property name="Color" type="color" value="#ff00ff2a"/>
+   <property name="Key_target" type="object" value="13"/>
+  </properties>
+ </object>
+</template>

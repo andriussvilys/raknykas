@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="83">
+ <tileset firstgid="1" source="mountain_landscape.tsx"/>
+ <layer id="1" name="Background" width="20" height="20">
+  <data encoding="csv">
+79,79,80,79,79,95,96,95,95,95,95,96,80,80,80,80,80,79,79,80,
+95,79,79,79,80,95,96,80,80,80,80,80,79,79,79,80,80,79,79,80,
+80,79,95,79,80,95,96,96,96,96,96,79,95,95,79,80,96,79,79,80,
+96,79,79,80,96,95,96,80,79,79,79,95,95,96,79,80,79,79,79,80,
+79,79,95,79,80,95,96,80,80,80,95,95,96,79,80,80,95,79,80,80,
+79,80,95,79,80,95,96,79,79,80,95,96,80,79,80,96,79,80,80,96,
+79,79,95,79,80,95,96,80,95,96,95,96,79,80,80,96,80,96,96,95,
+80,79,80,79,80,95,96,79,95,96,79,80,80,80,96,96,80,79,80,95,
+80,79,80,80,80,95,96,80,95,79,95,79,79,80,79,95,96,79,80,95,
+80,79,80,96,80,80,96,96,95,95,95,95,79,79,80,80,80,80,80,95,
+80,79,80,96,80,79,79,79,95,96,79,80,80,80,80,96,80,80,80,95,
+80,79,80,96,80,95,95,95,96,79,95,96,96,96,96,95,96,96,96,95,
+79,80,96,96,79,79,79,79,79,95,95,95,95,95,95,95,95,95,96,80,
+79,80,95,79,95,95,95,95,95,96,80,80,80,95,96,96,80,95,95,96,
+79,80,95,95,95,79,79,79,79,79,79,79,79,79,79,95,96,80,79,95,
+79,80,95,95,96,95,95,95,95,95,95,95,95,95,95,95,95,96,79,95,
+79,80,79,79,79,95,96,79,79,79,79,79,79,79,79,79,79,95,95,95,
+79,79,95,95,95,95,95,95,79,79,79,79,79,79,79,79,79,79,95,95,
+95,95,96,79,79,79,79,79,95,95,95,95,95,95,95,95,95,95,96,95,
+95,96,96,95,95,95,95,95,96,96,96,96,96,96,95,95,95,96,80,95
+</data>
+ </layer>
+ <layer id="2" name="Graphics" width="20" height="20">
+  <data encoding="csv">
+79,80,80,80,80,80,80,80,80,80,80,80,80,119,253,152,79,152,253,150,
+79,79,79,79,79,79,79,79,79,79,79,197,198,199,253,152,95,152,253,166,
+95,95,95,95,79,80,79,79,79,79,95,213,214,215,253,253,95,253,253,182,
+79,79,79,79,79,80,95,95,95,95,96,229,230,231,79,79,79,79,79,79,
+95,95,95,79,79,80,79,79,79,79,79,245,246,247,95,253,95,253,95,95,
+95,79,79,79,80,96,79,95,95,79,79,79,197,198,199,79,79,79,95,96,
+79,95,79,79,80,79,79,79,79,197,198,199,213,214,215,253,95,253,79,79,
+95,96,95,79,80,95,197,198,199,213,214,215,229,230,231,11,0,253,95,95,
+79,79,95,197,198,199,213,214,215,229,230,231,245,246,247,11,80,11,0,95,
+236,95,236,213,214,215,229,230,231,245,246,247,11,11,11,11,80,11,11,80,
+252,95,252,229,230,231,245,246,247,152,11,11,11,119,120,119,120,96,11,96,
+238,95,238,245,246,247,152,11,11,11,108,109,110,135,136,168,136,11,11,79,
+254,96,254,168,11,11,11,11,125,125,125,125,126,119,120,119,120,11,79,79,
+168,96,11,11,11,95,79,152,124,125,125,125,126,135,136,135,136,11,80,80,
+11,0,11,80,79,79,95,124,125,125,125,125,126,79,80,80,96,11,96,96,
+79,79,79,80,95,95,96,124,125,125,125,125,126,79,80,80,95,11,95,95,
+95,95,79,80,80,80,80,140,141,141,141,141,142,79,79,11,0,11,80,80,
+80,80,79,80,96,96,96,96,96,96,96,80,80,95,95,11,79,79,80,96,
+96,96,79,80,96,96,96,96,96,96,96,96,96,96,96,11,95,95,79,79,
+95,96,95,79,80,80,80,80,80,80,96,96,96,96,0,0,95,96,95,79
+</data>
+ </layer>
+ <objectgroup id="3" name="Fire"/>
+ <objectgroup id="4" name="Stonewall">
+  <object id="53" x="96" y="256" width="96" height="128"/>
+  <object id="54" x="192" y="224" width="96" height="128"/>
+  <object id="55" x="288" y="192" width="96" height="128"/>
+  <object id="56" x="384" y="160" width="96" height="128"/>
+  <object id="57" x="352" y="32" width="96" height="128"/>
+  <object id="58" x="448" y="0" width="32" height="96"/>
+  <object id="59" x="480" y="64" width="32" height="32"/>
+  <object id="60" x="544" y="64" width="64" height="32"/>
+  <object id="61" x="576" y="0" width="32" height="64"/>
+  <object id="62" x="480" y="128" width="32" height="32"/>
+  <object id="63" x="544" y="128" width="32" height="32"/>
+  <object id="64" x="480" y="192" width="32" height="32"/>
+  <object id="65" x="544" y="192" width="32" height="64"/>
+  <object id="67" x="64" y="288" width="32" height="128"/>
+  <object id="68" x="0" y="288" width="32" height="128"/>
+  <object id="69" x="0" y="-32" width="640" height="32"/>
+  <object id="70" x="640" y="-32" width="32" height="672"/>
+  <object id="71" x="-32" y="640" width="704" height="32"/>
+  <object id="72" x="-32" y="-32" width="32" height="672"/>
+ </objectgroup>
+ <objectgroup id="6" name="Lock">
+  <object id="20" x="511" y="67" width="32" height="32"/>
+  <object id="21" x="194" y="486" width="32" height="32"/>
+  <object id="22" x="32" y="320" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup id="5" name="Key">
+  <object id="23" x="35" y="32" width="32" height="32">
+   <properties>
+    <property name="Target_ID" type="int" value="20"/>
+    <property name="Tint" type="color" value="#ffeaff00"/>
+   </properties>
+  </object>
+  <object id="24" x="224" y="224" width="32" height="32">
+   <properties>
+    <property name="Target_ID" type="int" value="21"/>
+    <property name="Tint" type="color" value="#ff00ffff"/>
+   </properties>
+  </object>
+  <object id="30" x="320" y="416" width="32" height="32">
+   <properties>
+    <property name="Target_ID" type="int" value="22"/>
+    <property name="Tint" type="color" value="#fffc00f8"/>
+   </properties>
+  </object>
+  <object id="73" x="128" y="576" width="32" height="32">
+   <properties>
+    <property name="Target_ID" type="int" value="-1"/>
+    <property name="Tint" type="color" value="#ffff8419"/>
+   </properties>
+  </object>
+  <object id="74" x="224" y="576" width="32" height="32">
+   <properties>
+    <property name="Target_ID" type="int" value="9"/>
+    <property name="Tint" type="color" value="#ffff0004"/>
+   </properties>
+  </object>
+  <object id="75" x="320" y="576" width="32" height="32">
+   <properties>
+    <property name="Target_ID" type="int" value="-1"/>
+    <property name="Tint" type="color" value="#ff0000ff"/>
+   </properties>
+  </object>
+  <object id="76" x="384" y="576" width="32" height="32">
+   <properties>
+    <property name="Target_ID" type="int" value="-1"/>
+    <property name="Tint" type="color" value="#ffffaaff"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Enemy">
+  <object id="50" x="627" y="171">
+   <polyline points="0,0 -161,-2"/>
+  </object>
+  <object id="51" x="529" y="351">
+   <polyline points="0,0 1,-149"/>
+  </object>
+  <object id="52" x="460" y="112">
+   <polyline points="0,0 161,-1"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="8" name="Exit">
+  <object id="47" x="512" y="0" width="32" height="32"/>
+ </objectgroup>
+</map>
