@@ -40,6 +40,7 @@ public class PlayScreen implements Screen {
 //        map = new MapManager(gameCam);
         map = new MapManager();
         this.player = new Player( map );
+        map.setPlayer(this.player);
 
 //        textInterface = new TextInterface(new ScreenViewport());
 

@@ -61,13 +61,13 @@ public class Player extends Stage {
 
     private void handleInventoryInput(int keycode){
 //        NUM_KEYS toggle inventory
-
         if (checkIfNumKeyPressed(keycode)) {
             setKeyboardFocus((Group) inventory);
         }
 
-        //else add new item to inventory
-        else {
+//else add new item to inventory
+//or interact with exitGate
+        else if (keycode == Input.Keys.SPACE){
             if(sprite.isIntersecting)
             {
                 System.out.println(sprite.intersectionObject.toString());
@@ -123,6 +123,22 @@ public class Player extends Stage {
 
     private void switchLevel(){
         mapManager.switchLevel();
-        sprite = new PlayerSprite(mapManager.getWorld());
+//        sprite = new PlayerSprite(mapManager.getWorld());
     }
+
+    public void resetSprite(World world){
+        sprite = new PlayerSprite(world);
+    }
+
+    public void move(int direction){
+        this.moveDirection = direction;
+        update(1);
+    }
+
+    public void interact(int keycode){
+        handleInventoryInput(keycode);
+    }
+
+
+
 }

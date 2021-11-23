@@ -10,6 +10,7 @@ import com.badlogic.gdx.physics.box2d.Box2DDebugRenderer;
 import com.badlogic.gdx.physics.box2d.World;
 import com.mygdx.game.Player;
 import com.mygdx.game.Raknykas;
+import com.mygdx.game.sprites.PlayerSprite;
 
 public class MapManager {
 
@@ -40,7 +41,7 @@ public class MapManager {
         LoadLevel();
     }
 
-    public MapManager(Player player, OrthographicCamera gameCam){
+    public MapManager(Player player){
         maploader = new TmxMapLoader();
         LoadLevel();
         setPlayer(player);
@@ -68,7 +69,7 @@ public class MapManager {
 
     }
 
-    private void setPlayer(Player player){
+    public void setPlayer(Player player){
         this.player = player;
 //        world.setContactListener(new WorldContactListener( this.player.getSprite() ) );
     }
@@ -102,11 +103,13 @@ public class MapManager {
     public TiledMap getMap(){ return  this.map; }
 
     public void switchLevel(){
+
         ++currentLevel;
         if(currentLevel > levels_src.length - 1 )
             currentLevel = 0;
-        LoadLevel();
 
+        LoadLevel();
+        player.resetSprite(world);
 //        world.setContactListener(new WorldContactListener( player.getSprite() ));
     }
 
